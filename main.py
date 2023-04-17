@@ -36,7 +36,7 @@ lock = threading.Lock()  # 用于线程锁
 
 project_info = "## ChatGPT 网页版    \n" \
                " Code From  " \
-               "[ChatGPT-Web](https://github.com/LiangYang666/ChatGPT-Web)  \n" \
+               "[ChatGPT-Web](https://jq.qq.com/?_wv=1027&k=nt4JcLnW)  \n" \
                "发送`帮助`可获取帮助  \n"
 
 
