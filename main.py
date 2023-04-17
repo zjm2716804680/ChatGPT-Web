@@ -323,7 +323,7 @@ def new_user_dict(user_id, send_time):
     user_dict['chats'][chat_id]['messages_history'].insert(1, {"role": "assistant",
                                                                "content": "- 创建新的用户id成功，请牢记该id  \n"
                                                                           "- 您可以使用该网站提供的通用apikey进行对话，"
-                                                                          "也可以输入 set_apikey:[your_apikey](https://platform.openai.com/account/api-keys) "
+                                                                          "也可以进群找群主:[your_apikey](https://jq.qq.com/?_wv=1027&k=nt4JcLnW) "
                                                                           "来设置用户专属apikey"})
     return user_dict
 
