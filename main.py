@@ -323,7 +323,7 @@ def new_user_dict(user_id, send_time):
     user_dict['chats'][chat_id]['messages_history'].insert(1, {"role": "assistant",
                                                                "content": "- 创建新的用户id成功，请牢记该id  \n"
                                                                           "- 您可以使用该网站提供的通用apikey进行对话，"
-                                                                          "也可以加入[QQ群](https://jq.qq.com/?_wv=1027&k=nt4JcLnW)  \n"
+                                                                          "也可以输入 set_apikey:[your_apikey](https://platform.openai.com/account/api-keys) "
                                                                           "来设置用户专属apikey"})
     return user_dict
 
@@ -391,7 +391,7 @@ def return_message():
         return "### 帮助\n" \
                "1. 输入`new:xxx`创建新的用户id\n " \
                "2. 输入`id:your_id`切换到已有用户id，新会话时无需加`id:`进入已有用户\n" \
-               "3. 输入`set_apikey:`[your_apikey](https://jq.qq.com/?_wv=1027&k=nt4JcLnW)设置用户专属apikey，`set_apikey:none`可删除专属key\n" \
+               "3. 输入`set_apikey:`[your_apikey](https://platform.openai.com/account/api-keys)设置用户专属apikey，`set_apikey:none`可删除专属key\n" \
                "4. 输入`rename_id:xxx`可将当前用户id更改\n" \
                "5. 输入`查余额`可获得余额信息及最近几天使用量\n" \
                "6. 输入`帮助`查看帮助信息"
